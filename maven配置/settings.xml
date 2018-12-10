@@ -12,7 +12,6 @@
   <localRepository>/path/to/local/repo</localRepository>
   -->
 
-
   <mirrors>
 	<!-- 国内阿里云中央仓库 -->
 	<mirror>
