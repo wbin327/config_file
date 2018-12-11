@@ -12,13 +12,17 @@
   <localRepository>/path/to/local/repo</localRepository>
   -->
 
-  <mirrors>
-	<!-- 国内阿里云中央仓库 -->
-	<mirror>
-		<id>nexus-aliyun</id>
-		<name>nexus aliyun</name>
-		<url>http://maven.aliyun.com/nexus/content/groups/public</url>
-		<mirrorOf>central</mirrorOf> 
-	</mirror>
-  </mirrors>
+	<mirrors>
+		<!-- 国内阿里云中央仓库 -->
+		<mirror>
+			<id>nexus-aliyun</id>
+			<name>nexus aliyun</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<mirrorOf>central</mirrorOf> 
+		</mirror>
+	</mirrors>
+    <pluginGroups>
+		<!-- 配置插件 -->
+		<pluginGroup>org.eclipse.jetty</pluginGroup>
+	</pluginGroups>
 </settings>
